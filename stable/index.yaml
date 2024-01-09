@@ -1,9 +1,32 @@
 apiVersion: v1
 entries:
+  helm-helm:
+  - apiVersion: v1
+    appVersion: latest
+    created: "2024-01-10T01:38:15.900189235+09:00"
+    description: Sample helm chart for study
+    digest: 4dcc6e2978f3092364c101be9adff8610a023e5cd685c4ef64715c5b09578591
+    home: https://github.com/JJungeee/helm-helm-chart
+    icon: https://item.kakaocdn.net/do/aa10d7efdcda0761090dff5b02d5520b617ea012db208c18f6e83b1a90a7baa7
+    keywords:
+    - book
+    - bookbook
+    - helm
+    - helm-helm
+    kubeVersion: '>=1.15.3'
+    maintainers:
+    - email: bh7370608@naver.com
+      name: JungYeon Shin
+    name: helm-helm
+    sources:
+    - https://github.com/JJungeee/helm-helm-chart/tree/main
+    urls:
+    - helm-helm-0.1.0.tgz
+    version: 0.1.0
   mysql:
   - apiVersion: v1
     appVersion: 5.7.30
-    created: "2024-01-10T01:01:08.1129043+09:00"
+    created: "2024-01-10T01:38:15.903999975+09:00"
     deprecated: true
     description: DEPRECATED - Fast, reliable, scalable, and easy to use open-source
       relational database system.
@@ -24,7 +47,7 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: 5.0.7
-    created: "2024-01-10T01:01:08.122971417+09:00"
+    created: "2024-01-10T01:38:15.909541522+09:00"
     deprecated: true
     description: DEPRECATED Open source, advanced key-value store. It is often referred
       to as a data structure server since keys can contain strings, hashes, lists,
@@ -42,4 +65,4 @@ entries:
     urls:
     - redis-10.5.7.tgz
     version: 10.5.7
-generated: "2024-01-10T01:01:08.108830162+09:00"
+generated: "2024-01-10T01:38:15.88450976+09:00"
